@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  text-align: left;
+}
+
+.section {
+  padding: 0 20px;
+  border-left: 3px solid green;
+}
+
+.section:first-child {
+  border-left: none;
+}
